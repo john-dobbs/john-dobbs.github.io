@@ -7,8 +7,7 @@ permalink: projects/drexel
 # All dates must be YYYY-MM-DD format!
 date: 2013-06-01
 labels:
-  - Lisp
-  - GitHub
+  - Engineering
 summary: A feasibility analysis of a fixed link crossing the Long Island Sound.
 ---
 
