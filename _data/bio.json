@@ -91,10 +91,19 @@
     }
   ],
   "work": [
-  ],
-  "volunteer": [
-  ],
-  "awards": [
+    {
+      "company": "Freelance Web Developer",
+      "position": "",
+      "website": "",
+      "startDate": "2013-01-01",
+      "endDate": "Present",
+      "summary": "",
+      "highlights": [
+        "Maintain, update, and oversee websites of up to a half million daily page views",
+        "Design server deployments for performance, high-availability and security",
+        "Optimize new and existing databases for support of tens of millions of rows per table"
+      ]
+    }
   ],
   "references": [
     {
