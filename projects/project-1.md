@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/3ac877584c05d6c1308190caf4dab902.png
-title: Milling Machine CNC Conversion
+title: CNC Milling Machine Conversion
 permalink: projects/cnc
 # All dates must be YYYY-MM-DD format!
 date: 2011-01-01
