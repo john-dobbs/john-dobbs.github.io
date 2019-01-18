@@ -1,61 +1,20 @@
 ---
 layout: project
 type: project
-image: images/cotton-square.png
-title: Cotton
-permalink: projects/cotton
+image: images/3d2829f299cf5af77c3eea3e63f32274.png
+title: Drexel Senior Design Project
+permalink: projects/drexel
 # All dates must be YYYY-MM-DD format!
-date: 2014-04-12
+date: 2013-06-01
 labels:
   - Lisp
   - GitHub
-summary: A text adventure game I developed for ICS 313.
+summary: A feasibility analysis of a fixed link crossing the Long Island Sound.
 ---
 
-<img class="ui image" src="{{ site.baseurl }}/images/cotton-header.png">
+<img class="ui image" src="{{ site.baseurl }}/images/710829394a6e04e4d56dc55b6ad03529.png">
 
-Cotton is a horror-esque text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
+My Senior Design Project at Drexel University was a feasibility analysis of a fixed link crossing the Long Island Sound.  Due to our proximity to New York City, my group members and I determined that there was a need for a link from Long Island, New York to Connecticut that avoided the traffic congestion near New York City, but questioned the financial feasibility of such a project.
 
-To give you a flavor of the game, here is an excerpt from one run:
-
-<hr>
-
-<pre>
-You open your eyes, and you are greeted by an unfamiliar ceiling.
-Startled, you get to your feet and quickly scan your surroundings. It's
-dark except for the stream of light coming from a crack on the only boarded
-window in the room. You try to peek through the crack, but you cannot see
-anything. You wonder where you are and who could have possibly brought you here.
-
-<--------------------help------------------------>
-Enter quit or one of the following commands -
-Weld light look walk pickup inventory help h ?
-<------------------------------------------------>
-
-look
-The room is a picture of decay with only a faded number identifying it as room-4. The bed you were
- lying on is stained with what looks like dried blood. Could it be your blood? No - it is not. The
- only way out of the room aside from the door to the corridor is a window that is boarded shut. It
- looks like it has been like that for decades. There is a door going west from here. You see a candle
- on the floor. You see a match on the floor.
-
-pickup candle
-- you are now carrying the candle -
-
-pickup match
-- you are now carrying the match -
-
-light match candle
-
-The candle is now lit. It illuminates everything in the room.
-
-walk west
-The corridor is lit with the candle. It is so long that you cannot see to the end. You notice that
- there are words written on the wall. There is a door going east from here. There is a way going north
- from here. There is a door going south from here.
-</pre>
-
-<hr>
-
-Source: <a href="https://github.com/jogarces/ics-313-text-game"><i class="large github icon "></i>jogarces/ics-313-text-game</a>
+After many alternatives that looked at a variety of factors, we determined that a roughly 16 mile crossing would be needed, including both bridge and tunnel sections, for a cost of roughly 9 billion dollars with a 3 year construction period.  Having such a large problem, with literally hundreds of possible options, significantly improved my problem solving skills.
 
