@@ -9,7 +9,7 @@ labels:
   - Learning
 ---
 
-In this post, I’m going to explain my stance against a new feature in JavaScript ECMAScript 6 (ES6), the <i>let</i> and <i>const</i> keywords, with regards to web development.  <i>let</i> and <i>const</i> allow for block scope variables/constants in JavaScript, but is such a feature necessary for a website?
+In this post, I’m going to explain my stance against using a new feature in JavaScript ECMAScript 6 (ES6), the <i>let</i> and <i>const</i> keywords, with regards to web development.  <i>let</i> and <i>const</i> allow for block scope variables/constants in JavaScript, but is such a feature necessary for a website?
 
 Before going further, let’s quickly go over the basics of scope.  Before ES6, JavaScript only had two levels of scope, global scope and function scope:
 ```
@@ -23,6 +23,7 @@ myFunction();
 console.log(i);   // 2019
 console.log(j);   // undefined
 ```
+[JSFiddle](http://jsfiddle.net/jmd386/v93t0rqo/)
 Notice that the variable j is undefined outside of myFunction.  Since ES6, variables declared with the <i>let</i> and <i>const</i> keywords have block scope:
 ```
 let i = 2019;       // global scope
@@ -47,9 +48,10 @@ console.log(i);     // 2019
 console.log(j);     // undefined
 console.log(k);     // undefined
 ```
-Notice that variables...
+[JSFiddle](http://jsfiddle.net/jmd386/y45uc0zn/)
+Notice that variables declared using the <i>let</i> keyword behave similarly to variables declared using the <i>var</i> keyword in global scope and function scope (when placed at the top of the function block).  Also notice that variables can be redeclared within a sub-block using <i>let</i> and that any changes to a redeclared variable do not apply to the variable outside of the sub-block.
 
-Why use <i>let</i> and <i>const</i> instead of var?  Great question, but answers are usually vague, “let is block-scoped rather than function-scoped like var” ([AirBNB JavaScript Style Guide](https://github.com/airbnb/javascript)), so I turned to Google for some examples.
+Why use <i>let</i> and <i>const</i> instead of var?  Great question, but answers are usually vague, “<i>let</i> is block-scoped rather than function-scoped like <i>var</i>” ([AirBNB JavaScript Style Guide](https://github.com/airbnb/javascript)), so I turned to Google for some anwsers.
 
 ## Hoisting
 Without getting into too much detail since the topic is covered extensively elsewhere, hoisting is when a variable declaration is moved up to the top of the current scope.  Consider the following:
