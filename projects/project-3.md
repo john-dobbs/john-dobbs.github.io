@@ -17,3 +17,5 @@ My Senior Design Project at Drexel University was a feasibility analysis of a fi
 
 After many alternatives that looked at a variety of factors, we determined that a roughly 16 mile crossing would be needed, including both bridge and tunnel sections, for a cost of roughly 9 billion dollars with a 3 year construction period.  Having such a large problem, with literally hundreds of possible options, significantly improved my problem solving skills.
 
+[PDF of project](../projects/drexel.pdf)
+
