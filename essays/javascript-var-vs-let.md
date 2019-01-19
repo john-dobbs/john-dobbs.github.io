@@ -13,7 +13,7 @@ labels:
 In this post, I’m going to explain my stance against using a new feature in JavaScript ECMAScript 6 (ES6), the <i>let</i> and <i>const</i> keywords, with regards to web development.  <i>let</i> and <i>const</i> allow for block scope variables/constants in JavaScript, but is such a feature necessary for a website?
 
 Before going further, let’s quickly go over the basics of scope.  Before ES6, JavaScript only had two levels of scope, global scope and function scope ([JSFiddle](http://jsfiddle.net/jmd386/v93t0rqo/)):
-```
+```javascript
 var i = 2019;     // global scope
 function myFunction() {
   var j = 2020;   // function scope
