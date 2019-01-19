@@ -9,7 +9,7 @@ labels:
   - Learning
 ---
 
-In this post, I’m going to explain my stance against a new feature in JavaScript ECMAScript 6 (ES6), the let and const keywords, with regards to web development.  let and const allow for block scope variables/constants in JavaScript, but is such a feature necessary for a website?
+In this post, I’m going to explain my stance against a new feature in JavaScript ECMAScript 6 (ES6), the <i>let</i> and <i>const</i> keywords, with regards to web development.  <i>let</i> and <i>const</i> allow for block scope variables/constants in JavaScript, but is such a feature necessary for a website?
 
 Before going further, let’s quickly go over the basics of scope.  Before ES6, JavaScript only had two levels of scope, global scope and function scope:
 ```
@@ -23,7 +23,7 @@ myFunction();
 console.log(i);   // 2019
 console.log(j);   // undefined
 ```
-Notice that the variable j is undefined outside of myFunction.  Since ES6, variables declared with the let and const keywords have block scope:
+Notice that the variable j is undefined outside of myFunction.  Since ES6, variables declared with the <i>let</i> and <i>const</i> keywords have block scope:
 ```
 let i = 2019;       // global scope
 function myFunction() {
@@ -49,7 +49,7 @@ console.log(k);     // undefined
 ```
 Notice that variables...
 
-Why use let and const instead of var?  Great question, but answers are usually vague, “let is block-scoped rather than function-scoped like var” ([AirBNB JavaScript Style Guide](https://github.com/airbnb/javascript)), so I turned to Google for some examples.
+Why use <i>let</i> and <i>const</i> instead of var?  Great question, but answers are usually vague, “let is block-scoped rather than function-scoped like var” ([AirBNB JavaScript Style Guide](https://github.com/airbnb/javascript)), so I turned to Google for some examples.
 
 ## Hoisting
 Without getting into too much detail since the topic is covered extensively elsewhere, hoisting is when a variable declaration is moved up to the top of the current scope.  Consider the following:
@@ -73,7 +73,7 @@ function myFunction() {
 }
 myFunction();
 ```
-If the let keyword is used instead, an error would be thrown, as “expected”:
+If the <i>let</i> keyword is used instead, an error would be thrown, as “expected”:
 ```
 function myFunction() {
   let i = 2019;
@@ -96,7 +96,7 @@ function myFunction() {
 }
 myFunction();
 ```
-The variable <i>i</i> is still defined after the loop, but we can fix that using let:
+The variable <i>i</i> is still defined after the loop, but we can fix that using <i>let</i>:
 ```
 function myFunction() {
   for (let i = 0; i < 10; i++) {
@@ -106,7 +106,7 @@ function myFunction() {
 }
 myFunction();
 ```
-Again, an edge case, does it really matter if the variable <i>i</i> is still defined after the loop?
+Again, an edge case, does it matter if the variable <i>i</i> is still defined after the loop?
 
 ## Reduce Memory Usage
 The use of block level variables could reduce memory usage, I like the sound of that, but let’s look at a possible application of this:
@@ -130,7 +130,7 @@ function myFunction() {
 }
 myFunction();
 ```
-The above code frees the memory associated with the variable arr after the data is no longer needed, this could be useful for processing large amounts of data, but the focus of this article is web development, how often is a website going to send a bunch of raw data to a client for processing, not often.
+The above code frees the memory associated with the variable <i>arr</i> after the data is no longer needed, this could be useful for processing large amounts of data, but the focus of this article is web development, how often is a website going to send a bunch of raw data to a client for processing, not often.
 
 ## Browser Support
 Browser support is a concern for any website.  According to [caniuse.com](https://caniuse.com/#search=let), roughly 10% of global internet users have a browser that does not support the let keyword.  JavaScript is often used throughout the checkout process for input validation, of all the reasons for someone to abandon the checkout process, an unresponsive page because of using let instead of var should not be one of them.
