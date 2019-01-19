@@ -25,7 +25,7 @@ console.log(i);   // 2019
 console.log(j);   // undefined
 ```
 Notice that the variable j is undefined outside of myFunction.  Since ES6, variables declared with the <i>let</i> and <i>const</i> keywords have block scope ([JSFiddle](http://jsfiddle.net/jmd386/y45uc0zn/)):
-```
+```javascript
 let i = 2019;       // global scope
 function myFunction() {
   let j = 2020;     // function scope
@@ -55,7 +55,7 @@ Great question, but answers are usually vague, such as “<i>let</i> is block-sc
 
 ## Hoisting
 Without getting into too much detail since the topic is covered extensively elsewhere, hoisting is when a variable declaration is moved up to the top of the current scope.  Consider the following ([JSFiddle](http://jsfiddle.net/jmd386/2xf5v1q7/)):
-```
+```javascript
 function myFunction() {
   var i = 2019;
   console.log(i); // 2019
@@ -65,7 +65,7 @@ function myFunction() {
 myFunction();
 ```
 JavaScript interprets this as ([JSFiddle](http://jsfiddle.net/jmd386/v43dgc27/)):
-```
+```javascript
 function myFunction() {
   var i = 2019;
   var j;          // hoisted declaration
@@ -76,7 +76,7 @@ function myFunction() {
 myFunction();
 ```
 If the <i>let</i> keyword is used instead, an error would be thrown, as “expected” ([JSFiddle](http://jsfiddle.net/jmd386/bh690Les/)):
-```
+```javascript
 function myFunction() {
   let i = 2019;
   console.log(i); // 2019
@@ -89,7 +89,7 @@ I consider this to be an edge case that could be easily avoided by properly form
 
 ## Loops
 Consider the following for loop ([JSFiddle](http://jsfiddle.net/jmd386/zta7f2sb/)):
-```
+```javascript
 function myFunction() {
   for (var i = 0; i < 10; i++) {
     console.log(i); // 0, 1, 2, ... 9
@@ -99,7 +99,7 @@ function myFunction() {
 myFunction();
 ```
 The variable <i>i</i> is still defined after the loop, but we can fix that using <i>let</i> ([JSFiddle](http://jsfiddle.net/jmd386/94jodyaf/)):
-```
+```javascript
 function myFunction() {
   for (let i = 0; i < 10; i++) {
     console.log(i); // 0, 1, 2, ... 9
@@ -112,7 +112,7 @@ Again, an edge case, does it matter if the variable <i>i</i> is still defined af
 
 ## Memory Usage
 The use of block level variables could reduce memory usage.  I like the sound of that, but let’s look at a possible application of this ([JSFiddle](http://jsfiddle.net/jmd386/4krca03b/)):
-```
+```javascript
 function myFunction() {
   let sum = 0;
   {
