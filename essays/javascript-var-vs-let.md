@@ -88,7 +88,7 @@ myFunction();
 I consider this to be an edge case that could be easily avoided by properly formatting your code.
 
 ## Loops
-Consider the following for loop ([JSFiddle]()):
+Consider the following for loop ([JSFiddle](http://jsfiddle.net/jmd386/zta7f2sb/)):
 ```
 function myFunction() {
   for (var i = 0; i < 10; i++) {
@@ -98,7 +98,7 @@ function myFunction() {
 }
 myFunction();
 ```
-The variable <i>i</i> is still defined after the loop, but we can fix that using <i>let</i> ([JSFiddle]()):
+The variable <i>i</i> is still defined after the loop, but we can fix that using <i>let</i> ([JSFiddle](http://jsfiddle.net/jmd386/94jodyaf/)):
 ```
 function myFunction() {
   for (let i = 0; i < 10; i++) {
@@ -111,7 +111,7 @@ myFunction();
 Again, an edge case, does it matter if the variable <i>i</i> is still defined after the loop?
 
 ## Memory Usage
-The use of block level variables could reduce memory usage.  I like the sound of that, but let’s look at a possible application of this ([JSFiddle]()):
+The use of block level variables could reduce memory usage.  I like the sound of that, but let’s look at a possible application of this ([JSFiddle](http://jsfiddle.net/jmd386/4krca03b/)):
 ```
 function myFunction() {
   let sum = 0;
@@ -132,7 +132,7 @@ function myFunction() {
 }
 myFunction();
 ```
-The above code frees the memory associated with the variable <i>arr</i> after the data is no longer needed, this could be useful for processing large amounts of data, but the focus of this article is web development, how often is a website going to send a bunch of raw data to a client for processing, not often.
+The above code frees the memory associated with the variable <i>arr</i> after the data is no longer needed, i.e. after the block.  This could be useful for processing large amounts of data, but how often is a website going to send a bunch of raw data to a client for processing?
 
 ## Browser Support
 Browser support is a concern for any website.  According to [caniuse.com](https://caniuse.com/#search=let), roughly 10% of global internet users have a browser that does not support the let keyword (as of January 2019).  JavaScript is often used throughout the checkout process for input validation, of all the reasons for someone to abandon the checkout process, an unresponsive page because of using let instead of var should not be one of them.
