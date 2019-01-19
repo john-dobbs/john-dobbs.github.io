@@ -51,7 +51,7 @@ console.log(k);     // undefined
 Notice that variables declared using the <i>let</i> keyword behave similarly to variables declared using the <i>var</i> keyword in global scope and function scope (when placed at the top of the function block).  Also notice that variables can be redeclared within a sub-block using <i>let</i> and that any changes to a redeclared variable do not apply to the variable outside of the sub-block.
 
 ## Why Use <i>let</i> and <i>const</i> Instead of var?
-Great question, but answers are usually vague, “<i>let</i> is block-scoped rather than function-scoped like <i>var</i>” ([AirBNB JavaScript Style Guide](https://github.com/airbnb/javascript#references)), so I turned to Google for some anwsers.
+Great question, but answers are usually vague, “<i>let</i> is block-scoped rather than function-scoped like <i>var</i>” ([AirBNB JavaScript Style Guide](https://github.com/airbnb/javascript#references--disallow-var)), so I turned to Google for some anwsers.
 
 ## Hoisting
 Without getting into too much detail since the topic is covered extensively elsewhere, hoisting is when a variable declaration is moved up to the top of the current scope.  Consider the following ([JSFiddle](http://jsfiddle.net/jmd386/2xf5v1q7/)):
