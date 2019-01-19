@@ -94,7 +94,7 @@ function myFunction() {
   for (var i = 0; i < 10; i++) {
     console.log(i); // 0, 1, 2, ... 9
   }
-  console.log(i); // 10
+  console.log(i);   // 10
 }
 myFunction();
 ```
@@ -104,7 +104,7 @@ function myFunction() {
   for (let i = 0; i < 10; i++) {
     console.log(i); // 0, 1, 2, ... 9
   }
-  console.log(i); // undefined
+  console.log(i);   // undefined
 }
 myFunction();
 ```
