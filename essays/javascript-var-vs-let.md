@@ -25,7 +25,27 @@ console.log(j); // undefined
 ```
 Notice that the variable j is undefined outside of myFunction.  Since ES6, variables declared with the let and const keywords have block scope:
 ```
-
+let i = 2019; // global scope
+function myFunction() {
+  let j = 2020; // function scope
+  console.log(i); // 2019
+  console.log(j); // 2020
+  {
+    let i = 2021; // block scope
+    j = 2021;     // function scope
+    let k = 2021; // block scope
+    console.log(i); // 2021
+    console.log(j); // 2021
+    console.log(k); // 2021
+  }
+  console.log(i); // 2019
+  console.log(j); // 2021
+  console.log(k); // undefined
+}
+myFunction();
+console.log(i); // 2019
+console.log(j); // undefined
+console.log(k); // undefined
 ```
 Notice that variables...
 
