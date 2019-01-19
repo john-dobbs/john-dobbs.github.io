@@ -21,3 +21,5 @@ The project was based on the open source [WiFiDog project](http://dev.wifidog.or
 
 Another aspect of the project was solar powered wireless access points.  After several years of operation, I learned that the slight variations in voltage, as the battery was being charged and discharged, lead to a shortened lifespan of the equipment, only 18-24 months as opposed to 5 or more years under normal conditions.  A voltage regulator could fix the issue for a few dollars.
 
+This project was developed as closed source for intellectural property management and security reasons, as such, the source code is not available.
+
