@@ -62,7 +62,7 @@ function myFunction() {
 }
 myFunction();
 ```
-JavaScript interprets this as the following:
+JavaScript interprets this as:
 ```
 function myFunction() {
   var i = 2019;
@@ -96,7 +96,7 @@ function myFunction() {
 }
 myFunction();
 ```
-Apparently having the variable defined after the loop is an issue, but we can fix that using let:
+The variable <i>i</i> is still defined after the loop, but we can fix that using let:
 ```
 function myFunction() {
   for (let i = 0; i < 10; i++) {
@@ -106,7 +106,7 @@ function myFunction() {
 }
 myFunction();
 ```
-Again, an edge case, if I were to use the variable i again, chances are it would be in another loop with initial values set accordingly.
+Again, an edge case, does it really matter if the variable <i>i</i> is still defined after the loop?
 
 ## Reduce Memory Usage
 The use of block level variables could reduce memory usage, I like the sound of that, but let’s look at a possible application of this:
