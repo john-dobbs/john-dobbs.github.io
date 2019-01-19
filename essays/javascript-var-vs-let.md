@@ -135,5 +135,7 @@ myFunction();
 The above code frees the memory associated with the variable <i>arr</i> after the data is no longer needed, i.e. after the block.  This could be useful for processing large amounts of data, but how often is a website going to send a bunch of raw data to a client for processing?
 
 ## Browser Support
-Browser support is a concern for any website.  According to [caniuse.com](https://caniuse.com/#search=let), roughly 10% of global internet users have a browser that does not support the let keyword (as of January 2019).  JavaScript is often used throughout the checkout process for input validation, of all the reasons for someone to abandon the checkout process, an unresponsive page because of using let instead of var should not be one of them.
+Browser support is a concern for any website.  According to [caniuse.com](https://caniuse.com/#search=let), roughly 10% of global internet users have a browser that does not support the <i>let</i> keyword (as of January 2019).  JavaScript is often used throughout the checkout process for input validation, of all the reasons for someone to abandon the checkout process, an unresponsive page because of using <i>let</i> instead of <i>var</i> should not be one of them.  Taking the world's largest online retailer as an example, looking at the JavaScript sent to your browser shows the use of <i>var</i>, not <i>let</i>.
 
+## <span style="text-dexoration: line-through">To <i>let</i> or</span> Not to <i>let</i>
+Although there are a few benefits to using the let and const keywords, I do not believe those benefits to be useful for web development.
