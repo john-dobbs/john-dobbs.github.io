@@ -18,7 +18,7 @@ In the article, authors Eric Raymond and Rick Moen go on a rant about various fa
   “I've tried checking <a href="https://stackoverflow.com/questions/1659208/why-br-and-not-br">other answers</a>, but I'm still confused--especially after seeing <a href="http://www.w3schools.com/tags/tag_img.asp">W3schools HTML 5 reference</a>.<br />I thought HTML 4.01 was supposed to "allow" single-tags to just be &lt;img&gt; and &lt;br&gt;. Then XHTML came along with &lt;img /&gt; and &lt;br /&gt; (<a href="https://stackoverflow.com/questions/462741/space-before-closing-slash/463692#463692">where someone said that the space is there for older browsers</a>).<br />Now I'm wondering how I'm supposed to format my code when practicing HTML 5.<br />Is it &lt;br&gt;, &lt;br/&gt; or &lt;br /&gt;?”
   <footer><a href="https://stackoverflow.com/questions/1946426/html-5-is-it-br-br-or-br">Eikern on StackOverflow</a></footer>
 </blockquote>
-This would be considered a smart question due to the level of effort the person seemingly put into figuring out a solution prior to posting, such as the links to resources and other questions they have looked at. 
+This would be considered a smart question due to the level of effort the person seemingly put into figuring out a solution prior to posting, such as the links to various resources they have looked at and what they learned from those resources.
 
 ### Counter Example
 <blockquote>
