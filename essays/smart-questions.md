@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: What is a Computer
+title: Smart Questions
 # All dates must be YYYY-MM-DD format!
 date: 2019-01-24
 labels:
