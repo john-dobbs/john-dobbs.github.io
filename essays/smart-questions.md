@@ -17,8 +17,10 @@ labels:
 
 
 ### Counter Example
-<blockquote>What is the difference between == and === in JavaScript? I have also seen != and !== operators. Are there more such operators? <footer>Shiva on StackOverflow</footer></blockquote>
-[StackOverflow linke](https://stackoverflow.com/questions/523643/difference-between-and-in-javascript)
+<blockquote>
+  “What is the difference between == and === in JavaScript? I have also seen != and !== operators. Are there more such operators?”
+  <footer><a href="https://stackoverflow.com/questions/523643/difference-between-and-in-javascript">Shiva on StackOverflow</a></footer>
+</blockquote>
 Having gone through a few programming courses, I know that the answer to this question is covered when going over conditional statements; I can only assume that this person is either not paying attention in class or attempting to skip some reading assignments.  To add to their laziness, they did not even take the time to search for the answer before posting their question, since someone had already posted the same question to StackOverflow.
 
 
