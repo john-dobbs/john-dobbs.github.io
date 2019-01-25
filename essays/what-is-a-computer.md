@@ -9,7 +9,7 @@ labels:
   - Learning
 ---
 
-A computer is a programable machine that can execute a set of instructions, known as a program, in a defined manner.  Programs describe what a computer does, and any computer can do everything any other computer can do, including running itself.  All computers are not created equal, however; some run slower than others; some can fit in your pocket, others occupy more space than a house; but for all computers, the following three statements are true:
+A computer is a programmable machine that can execute a set of instructions, known as a program, in a defined manner.  Programs describe what a computer does, and any computer can do everything any other computer can do, including running itself.  All computers are not created equal, however; some run slower than others; some can fit in your pocket, others occupy more space than a house; but for all computers, the following three statements are true:
   1. For every computation, there is a program
   2. For every variable, there is a partial evaluator
   3. For every program transformer, there is a fixed program
