@@ -15,16 +15,8 @@ labels:
 
 ### Example
 <blockquote>
-  “I have been processing some client side data which may be up to 100MB in total. I have been using a global variable to store the data and the variable is declared at the top of my JS file:<br />
-[redacted sample code]<br />
-Followed by the definition, there are some functions that load data to this variable, such as:<br />
-[redacted sample code]<br />
-Then some operations will replace the data.array with some new data. I found that if I just set null to data before loading the new data, the memory of the browser will growing very fast:<br />
-[redacted sample code]<br />
-So I tried to use delete before loading new data:<br />
-[redacted sample code]<br />
-Now I have a question: do I have to delete each of the element in data.array or can I just delete the whole array using delete data.array; ? Thanks!”
-  <footer><a href="https://stackoverflow.com/questions/33382997/how-to-release-memory-of-javascript-variables-correctly">HQXU85 on StackOverflow</a></footer>
+  “I've tried checking other answers, but I'm still confused--especially after seeing W3schools HTML 5 reference.<br />I thought HTML 4.01 was supposed to "allow" single-tags to just be <img> and <br>. Then XHTML came along with <img /> and <br /> (where someone said that the space is there for older browsers).<br />Now I'm wondering how I'm supposed to format my code when practicing HTML 5.<br />Is it <br>, <br/> or <br />?”
+  <footer><a href="https://stackoverflow.com/questions/1946426/html-5-is-it-br-br-or-br">Eikern on StackOverflow</a></footer>
 </blockquote>
 
 ### Counter Example
