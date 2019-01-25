@@ -11,7 +11,7 @@ labels:
 “There’s no such thing as a stupid question”, a common phrase used by teachers around the world, but after reading [How To Ask Questions The Smart Way](http://www.catb.org/esr/faqs/smart-questions.html), one has to ask, are there stupid questions?
 
 ## What is a “Smart” Question?
-In the article, authors Eric Raymond and Rick Moen go on a rank about various factors that they believe constitute a smart question, but it all boils down to a lack of effort from the person asking the question.
+In the article, authors Eric Raymond and Rick Moen go on a rant about various factors that they believe constitute a smart question, but it all boils down to a lack of effort from the person asking the question.
 
 ### Example
 <blockquote>
@@ -26,5 +26,6 @@ This would be considered a smart question due to the level of effort the person 
   <footer><a href="https://stackoverflow.com/questions/523643/difference-between-and-in-javascript">Shiva on StackOverflow</a></footer>
 </blockquote>
 Having gone through a few programming courses, I know that the answer to this question is covered when going over conditional statements; I can only assume that this person is either not paying attention in class or attempting to skip some reading assignments.  To add to their laziness, they did not even take the time to search for the answer before posting their question, since someone had already posted the same question to StackOverflow.
+
 
 
