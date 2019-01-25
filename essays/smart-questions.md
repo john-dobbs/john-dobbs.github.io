@@ -11,7 +11,7 @@ labels:
 “There’s no such thing as a stupid question”, a common phrase used by teachers around the world, but after reading [How To Ask Questions The Smart Way](http://www.catb.org/esr/faqs/smart-questions.html), one has to ask, are there stupid questions?
 
 ## What is a “Smart” Question?
-In the article, authors Eric Raymond and Rick Moen go on a rant about various factors that they believe constitute a smart question, but it all boils down to the amount of effort the person asking the question seemingly put into finding a solution before posting to the internet.
+In the article, authors Eric Raymond and Rick Moen go on a rant about various factors that they believe constitute a smart question, but it all boils down to the perceived amount of effort the person put into finding a solution before posting their question to the internet.
 
 ### Example
 <blockquote>
