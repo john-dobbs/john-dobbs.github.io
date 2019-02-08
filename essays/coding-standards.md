@@ -9,7 +9,7 @@ labels:
   - Learning
 ---
 
-Coding standards, you will either love them at first sight or curse the day someone required you use them, but I think they eventually grow on you.
+Coding standards, you will either love them at first sight or curse the day someone required you to use them, but I think they eventually grow on you.
 
 ## Beyond Tabs vs Spaces
 Although an eternal debate among programmers, using tabs vs spaces is only scratching the surface of what coding standards entail, but it does make for a great episode of Silicon Valley.  Coding standards cover all aspects of your code, from formatting, to layout, to naming conventions, and everything in between, all with the intention of improving the readability of your code and allowing it to be easily understood by others.  This can become incredibly useful when working on collaborative projects, even more so as the project size grows.
@@ -23,7 +23,4 @@ Onward and upwards to ESLint, which is a JavaScripting coding standard.  Getting
 
 ## Going for Green Check Marks
 Moving past some of the issues with implementation, I can see many benefits to having the ESLint tests automatically run on your code.  One such benefit is that you fix your code as you code, as opposed to coming back to it hours or days later and trying to remember what your thought process was at the time.  The ESLint standard includes formatting guidelines, so another benefit of following it that you will produce nicely formatted code, which can help to spot issues when debugging.  I am also a big fan of visual indicators, so seeing a green check mark to let me know my code meets the coding standard is a nice feature (if only it updated properly).  All in all, I find coding standards to be very useful and believe that programming classes should do more to emphasize their importance to those just starting off.
-
-
-
 
