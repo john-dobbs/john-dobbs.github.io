@@ -18,5 +18,6 @@ After going through HTML and CSS in my software engineering class, we were intro
 
 ## UI Frameworks for Everyone!?!?
 I say no; although there are many benefits to using UI frameworks, there are a lot of down sides as well.  Unless you are using a UI framework every day, you are going to be referring to the framework’s documentation often; how is that different than looking though CSS documentation?  One issue I had with Semantic UI was centering, something that you think would be easy, is anything but; after a few failed attempts, even after referencing their documentation, I gave up trying to get it to work with Semantic UI and quickly wrote the CSS.
+
 All in all, I think that UI frameworks are useful for certain situations, it’s hard to argue with how fast and easy it is to make a decent website.  There is a reason that front-end developers haven’t been replaced by UI frameworks yet, no amount of Semantic-fu can turn a decent website into a great website.
 
