@@ -8,7 +8,7 @@ labels:
   - Learning
 ---
 
-If there is one thing that backend developers hate more than anything, it’s the User-Interface (UI); for some reason, we have the mindset that if the command line works for us, it should work for the users of our software to.  Sadly, that is just not a reality, so how does an artistically impaired backend developer, like me, produce a visually appealing UI?  Enter UI frameworks.
+If there is one thing that backend developers hate more than anything, it’s the User-Interface (UI); for some reason, we have the mindset that if the command line works for us, it works for you to.  Sadly, that is just not a reality, so how does an artistically impaired backend developer, like me, produce a visually appealing UI?  Enter UI frameworks.
 
 ## What is a UI Framework?
 A UI framework is a set of tools for building, you guessed it, a UI.  Although there are UI frameworks for many programing languages, most of them are related to web applications, which is going to be the focus of this article.  UI frameworks do a lot of the heavy lifting for you; they can take a website that looks like it’s it came straight out of the 90’s and quickly turn it into something that’s visually appealing and responsive, which is useful for the ever-growing number of mobile users.
