@@ -1,9 +1,9 @@
 ---
 layout: essay
 type: essay
-title: Smart Questions
+title: UI Frameworks
 # All dates must be YYYY-MM-DD format!
-date: 2019-01-24
+date: 2019-02-21
 labels:
   - Learning
 ---
