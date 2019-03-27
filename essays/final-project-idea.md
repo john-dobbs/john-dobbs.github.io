@@ -19,8 +19,8 @@ The application will support browsing a list of activities and classes, allowing
 The application has three user roles:
 <ul>
   <li>Regular users: search for activities, register for activities, review activities</li>
-  <li>Basic administrative users: same as regular users, able to add activities, and monitor reviews</li>
-  <li>Administrative users: same as basic administrative users, able to modify activities, and able to add or modify registrants</li>
+  <li>Basic admin users: same as regular users, able to add activities, and monitor reviews</li>
+  <li>Admin users: same as basic admin users, able to modify activities, and able to add or modify registrants</li>
 </ul>
 
 Some possible mockup pages include:
