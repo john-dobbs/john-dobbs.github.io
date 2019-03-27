@@ -1,23 +1,56 @@
 ---
 layout: essay
 type: essay
-title: UI for Dummies
-# All dates must be YYYY-MM-DD format!
-date: 2019-02-21
+title: "Final Project Idea"
+date: 2019-03-26
 labels:
-  - Learning
+  - Software Engineering
+  - Meteor
 ---
 
-If there is one thing that backend developers hate more than anything, it’s the User-Interface (UI).  For some reason, we have the mindset that if the command line works for us, it works for you too.  Sadly, that is just not a reality, so how does an artistically impaired backend developer, like me, produce a visually appealing UI?  Enter UI frameworks.
+## Overview
+The problem: UH Manoa Student Recreation Services offers many activities and classes, including such things as hiking, surfing, yoga and many more.  Unfortunately, students usually are unaware these programs exist, and the signup process requires you to fill out a lengthy form in person for every activity you wish to participate in.
 
-## What is a UI Framework?
-A UI framework is a set of tools for building, you guessed it, a UI.  Although there are UI frameworks for many programming languages, most of them are related to web applications, which is going to be the focus of this article.  UI frameworks do a lot of the heavy lifting for you; they can take a website that looks like it came straight out of the 90’s and quickly turn it into something that’s visually appealing and responsive, which is useful for the ever-growing number of mobile users.
+The solution: An application that allows UHM students and faculty to register for classes and signup for email notifications when new classes, possibly matching certain criteria, are added.
 
-## Semantic UI
-After going through HTML and CSS in my software engineering class, we were introduced to Semantic UI.  Although this is not the first UI framework I have worked with, it was probably the easiest one to use out of the gate.  The ease of use comes from its class naming convention, which is similar to written English.  Let’s say that you wanted a big red button, the class in Semantic UI would be “ui big red button”, whereas in other frameworks the class would be less intuitive, such as in Bootstrap, “btn btn-danger btn-lg”.  After only one week, I can already make a reasonably good-looking website in under half an hour, including features such as dropdown menus, grids and columns for content separation, responsive images and layouts, etc.  To complete the same website in only HTML and CSS would take several hours.
+## Approach
+The application will support browsing a list of activities and classes, allowing for filtering based on interests and dates/days/times offered.
 
-## UI Frameworks for Everyone!?!?
-I say no; although there are many benefits to using UI frameworks, there are a lot of down sides as well.  Unless you are using a UI framework every day, you are going to be referring to the framework’s documentation often; how is that different than looking though CSS documentation?  One issue I had with Semantic UI was centering, something that you think would be easy, is anything but; after a few failed attempts, even after referencing their documentation, I gave up trying to get it to work with Semantic UI and quickly wrote the CSS.
+The application has three user roles:
+<ul>
+  <li>Regular users: search for activities, register for activities, review activities</li>
+  <li>Basic administrative users: same as regular users, able to add activities, and monitor reviews</li>
+  <li>Administrative users: same as basic administrative users, able to modify activities, and able to add or modify registrants</li>
+</ul>
 
-All in all, I think that UI frameworks are useful for certain situations, it’s hard to argue with how fast and easy it is to make a decent website.  There is a reason that front-end developers haven’t been replaced by UI frameworks yet, no amount of Semantic-fu can turn a decent website into a great website.
+Some possible mockup pages include:
+<ul>
+  <li>Landing page</li>
+  <li>User home page</li>
+  <li>Admin home page</li>
+  <li>User profile page</li>
+  <li>Activities listings page</li>
+  <li>Activity details page</li>
+  <li>Activity registration page</li>
+  <li>Review activity page</li>
+</ul>
 
+## Use case ideas
+Whether or not the following bullet points list all pages or not, the completed use case should show an end-to-end scenario of using the system:
+<ul>
+  <li>New user goes to landing page, logs in, sets up profile</li>
+  <li>Admin goes to landing page, logs in, edits site</li>
+  <li>User goes to landing page, logs in, looks for activities of interest, sets up notifications</li>
+  <li>User goes to landing page, logs in, looks for activity of interest, registers for activity</li>
+  <li>Admin goes to landing page, logs in, adds or modifies activities</li>
+  <li>Admin goes to landing page, logs in, adds or modifies registrants</li>
+</ul>
+
+## Beyond the basics
+After implementing the basic functionality, here are ideas for more advanced features:
+<ul>
+  <li>Use UH CAS Login instead of Meteor Login to guarantee that users are UH students or faculty</li>
+  <li>A rating/review system for activities</li>
+  <li>Map-based interface to indicate where activities take place</li>
+  <li>Payment processing (outside the scope of an entry level programing course)</li>
+</ul>
