@@ -1,4 +1,5 @@
 ---
+draft: true
 layout: essay
 type: essay
 title: "Final Project Idea"
