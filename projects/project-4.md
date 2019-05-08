@@ -11,7 +11,7 @@ labels:
 summary: A feasibility analysis of a fixed link crossing the Long Island Sound.
 ---
 
-<img class="ui medium centered rounded image" src="../images/710829394a6e04e4d56dc55b6ad03529.png">
+<img class="ui large centered rounded image" src="../images/710829394a6e04e4d56dc55b6ad03529.png">
 
 My Senior Design Project at Drexel University was a feasibility analysis of a fixed link crossing the Long Island Sound.  Due to our proximity to New York City, my group members and I determined that there was a need for a link from Long Island, New York to Connecticut that avoided the traffic congestion near New York City, but questioned the financial feasibility of such a project.
 
