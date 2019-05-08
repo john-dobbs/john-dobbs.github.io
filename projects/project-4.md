@@ -2,16 +2,16 @@
 layout: project
 type: project
 image: images/3d2829f299cf5af77c3eea3e63f32274.png
-title: Drexel Senior Design Project
-permalink: projects/drexel
+title: Rainbow Clubs
+permalink: projects/rainbow-clubs
 # All dates must be YYYY-MM-DD format!
-date: 2013-06-01
+date: 2019-05-08
 labels:
-  - Engineering
+  - Software Engineering
 summary: A feasibility analysis of a fixed link crossing the Long Island Sound.
 ---
 
-<img class="ui image" src="../images/710829394a6e04e4d56dc55b6ad03529.png">
+<img class="ui medium centered rounded image" src="../images/710829394a6e04e4d56dc55b6ad03529.png">
 
 My Senior Design Project at Drexel University was a feasibility analysis of a fixed link crossing the Long Island Sound.  Due to our proximity to New York City, my group members and I determined that there was a need for a link from Long Island, New York to Connecticut that avoided the traffic congestion near New York City, but questioned the financial feasibility of such a project.
 
