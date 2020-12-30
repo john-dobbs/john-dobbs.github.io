@@ -2,12 +2,10 @@
   "basics": {
     "name": "John Dobbs",
     "label": "Student",
-    "picture": "https://john-dobbs.github.io/images/53ec50b5f4befaf49fd903272f8fc59b.png",
     "website": "https://john-dobbs.github.io",
     "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
     "location": {
       "address": "",
-      "postalCode": "96815",
       "city": "Honolulu",
       "countryCode": "USA",
       "region": "Hawaii"
@@ -80,21 +78,6 @@
       "endDate": "2013-06-01",
       "gpa": "",
       "courses": [
-      ]
-    }
-  ],
-  "work": [
-    {
-      "company": "Freelance",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2013-01-01",
-      "endDate": "Present",
-      "summary": "",
-      "highlights": [
-        "Maintain, update and oversee websites with up to half a million daily page views",
-        "Design server deployments for performance, high-availability and security",
-        "Optimize new and existing databases to support tens of millions of rows per table"
       ]
     }
   ],
