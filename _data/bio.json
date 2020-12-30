@@ -9,14 +9,7 @@
       "city": "Honolulu",
       "countryCode": "USA",
       "region": "Hawaii"
-    },
-    "profiles": [
-      {
-        "network": "github",
-        "username": "john-dobbs",
-        "url": "http://github.com/john-dobbs"
-      }
-    ]
+    }
   },
   "interests": [
     {
@@ -62,10 +55,10 @@
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Information Computer Science (expected Spring, 2020)",
+      "area": "Information Computer Science",
       "studyType": "B.S.",
       "startDate": "2018-08-20",
-      "endDate": "Present",
+      "endDate": "2020-05-16",
       "gpa": "",
       "courses": [
       ]
